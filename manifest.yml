@@ -4,6 +4,6 @@ applications:
   name: jamesDemoDeployApp
   command: node app.js
   path: .
-  domain: eu-gb.mybluemix.net
+  domain: {{CF_DOMAIN}}
   instances: 1
   memory: 256M
