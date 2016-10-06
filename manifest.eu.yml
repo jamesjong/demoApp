@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 256M
+  host: jamesDemoDeployApp
+  name: jamesDemoDeployApp
+  command: node app.js
+  path: .
+  domain: $CF_DOMAIN
+  instances: 1
+  memory: 256M
